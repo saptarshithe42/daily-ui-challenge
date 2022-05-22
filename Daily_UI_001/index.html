@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Daily UI</title>
+    <!-- bootstrap 5.2 cdn for css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome cdn  -->
+    <script src="https://kit.fontawesome.com/c4b4aa9a67.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap javascipt cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- title section  -->
+    <section id="#title">
+        <div class="container-fluid">
+            <!-- Nav bar -->
+            <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+                <a class="navbar-brand" href="">Daily UI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="heading-div">
+            <h1>Welcome!</h1>
+        </div>
+
+    </section>
+
+    <!-- Sign up section  -->
+    <section id="sign-up-form">
+        <form>
+            <div class="col-auto">
+                <!-- <i class="fa-solid fa-envelope fa-2x input-icon"></i> -->
+                <input type="email" class="form-control user-input" id="email-input" placeholder="name@example.com">
+            </div>
+            <div class="col-auto">
+                <!-- <i class="fa-solid fa-lock fa-2x input-icon"></i> -->
+                <input type="password" class="form-control user-input" id="password-input"
+                    placeholder="enter password here">
+            </div>
+        </form>
+
+        <button type="button" class="btn btn-lg btn-outline-light"
+            style="--bs-btn-padding-y: 0.5rem; --bs-btn-padding-x: 3rem; --bs-btn-font-size: 1.2rem;">Enter &#160 &#160
+            <i class="fa-solid fa-angle-right"></i></button>
+    </section>
+
+    <!-- footer section  -->
+    <section id="footer">
+        <div class="footer-div">
+            <div class="share-text-group">
+                <p class="share-text"><i class="fa-solid fa-share-nodes"></i> &#160&#160 Share </p>
+            </div>
+            <div class="share-icons-group">
+                <i class="fa-brands fa-twitter share-icons"></i>
+                <i class="fa-brands fa-facebook-f share-icons"></i>
+                <i class="fa-brands fa-instagram share-icons"></i>
+                <i class="fa-solid fa-envelope share-icons"></i>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
